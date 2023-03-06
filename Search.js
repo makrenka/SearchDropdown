@@ -40,7 +40,13 @@ class Search extends HTMLElement {
     this.innerHTML = `
       <div class='row'>
         <div class="input-field col s6 offset-s3">
-          <input id="first_name" type="text" class="validate" placeholder='Type for search...' value='${this.value}' >
+          <input 
+            id="first_name" 
+            type="text" 
+            class="validate" 
+            placeholder='Type for search...' 
+            value='${this.value}' 
+          >
         </div>
       </div>
       <div class='container'></div>
